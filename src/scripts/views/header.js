@@ -5,7 +5,7 @@ var Header = React.createClass({
 		return (
 			<header>
 				<h1>Bus Ride Simulator</h1>
-				<h3>It's a bus.</h3>
+				<h3>By Conner Clifton</h3>
 			</header>
 			)
 	}

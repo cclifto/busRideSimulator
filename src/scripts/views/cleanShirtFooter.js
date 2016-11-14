@@ -1,15 +1,19 @@
 import React from "react"
 
 var CleanShirtFooter = React.createClass({
-	// _clickStart: function(){
-	// 	location.hash = '#shirtOff'
-	// },
+	_bail: function(){
+		location.hash = '#bail'
+	},
+
+	_screw: function(){
+		location.hash = '#screwIt'
+	},
 
 	render: function(){
 		return (
 			<footer>
-				<button>SCREW IT, I'M GOING TO WORK</button>
-				<button>BAIL</button>
+				<button onClick={this._screw}>SCREW IT, I'M GOING TO WORK</button>
+				<button onClick={this._bail}>BAIL</button>
 			</footer>
 			)
 	}

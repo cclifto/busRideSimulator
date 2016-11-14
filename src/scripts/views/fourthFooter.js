@@ -5,11 +5,15 @@ var FourthFooter = React.createClass({
 		location.hash = '#turnAway'
 	},
 
+	_mint: function(){
+		location.hash = '#mint'
+	},
+
 	render: function(){
 		return (
 			<footer>
 				<button onClick={this._turnAway}>TURN AWAY</button>
-				<button>OFFER BREATH MINT</button>
+				<button onClick={this._mint}>OFFER BREATH MINT</button>
 			</footer>
 			)
 	}
