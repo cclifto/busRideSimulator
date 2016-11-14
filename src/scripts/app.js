@@ -10,9 +10,11 @@ import GameOver from './views/gameOver'
 import StartView from './views/startView'
 import FirstBusView from './views/firstBusView'
 import EatLunch from './views/eatLunch'
+import AllOver from './views/allOver'
 import ShirtOff from './views/shirtOff'
 import CleanNeighbor from './views/cleanNeighbor'
 import TurnAway from './views/turnAway'
+import CleanShirtFooter from './views/cleanShirtFooter'
 
 var app = function() {
 	var Controller = Backbone.Router.extend({
@@ -20,6 +22,7 @@ var app = function() {
 			'home': 'handleHome',
 			'onBus': 'handleOnBus',
 			'eat': 'handleEat',
+			'allOver': 'allOver',
 			'shirtOff': 'shirtOff',
 			'cleanTalk': 'handleCleanTalk',
 			'turnAway': 'turnAway',
@@ -36,6 +39,9 @@ var app = function() {
 		},
 		shirtOff: function(){
 			ReactDOM.render(<ShirtOff />, document.querySelector(".container"))
+		},
+		allOver: function(){
+			ReactDOM.render(<AllOver />, document.querySelector(".container"))
 		},
 		handleCleanTalk: function(){
 			ReactDOM.render(<CleanNeighbor />, document.querySelector(".container"))

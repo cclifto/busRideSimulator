@@ -5,10 +5,14 @@ var ThirdFooter = React.createClass({
 		location.hash = '#shirtOff'
 	},
 
+	_cleanShirt: function(){
+		location.hash = '#allOver'
+	},
+
 	render: function(){
 		return (
 			<footer>
-				<button>CLEAN SHIRT</button>
+				<button onClick={this._cleanShirt}>CLEAN SHIRT</button>
 				<button onClick={this._clickStart}>TAKE OFF SHIRT</button>
 			</footer>
 			)
