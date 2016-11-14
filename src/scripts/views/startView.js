@@ -9,7 +9,7 @@ var StartView = React.createClass({
 			<div className="list-view">
 				<Header />
 				<div className="view-container">
-					<p>>>Welcome to Bus Simulator. Press "Start" to begin your public transit adventure.</p>
+					<p>>>Welcome to Bus Ride Simulator. Press "Start" to begin your public transit adventure.</p>
 				</div>
 				<Footer />
 			</div>
