@@ -6,10 +6,13 @@ import Footer from './views/footer'
 import SecondFooter from './views/secondFooter'
 import ThirdFooter from './views/thirdFooter'
 import FourthFooter from './views/fourthFooter'
+import GameOver from './views/gameOver'
 import StartView from './views/startView'
 import FirstBusView from './views/firstBusView'
 import EatLunch from './views/eatLunch'
+import ShirtOff from './views/shirtOff'
 import CleanNeighbor from './views/cleanNeighbor'
+import TurnAway from './views/turnAway'
 
 var app = function() {
 	var Controller = Backbone.Router.extend({
@@ -17,7 +20,9 @@ var app = function() {
 			'home': 'handleHome',
 			'onBus': 'handleOnBus',
 			'eat': 'handleEat',
+			'shirtOff': 'shirtOff',
 			'cleanTalk': 'handleCleanTalk',
+			'turnAway': 'turnAway',
 			'*default': 'handleDefault'
 		},
 		handleHome: function(){
@@ -29,8 +34,14 @@ var app = function() {
 		handleEat: function(){
 			ReactDOM.render(<EatLunch />, document.querySelector(".container"))
 		},
+		shirtOff: function(){
+			ReactDOM.render(<ShirtOff />, document.querySelector(".container"))
+		},
 		handleCleanTalk: function(){
 			ReactDOM.render(<CleanNeighbor />, document.querySelector(".container"))
+		},
+		turnAway: function(){
+			ReactDOM.render(<TurnAway />, document.querySelector(".container"))
 		},
 		handleDefault: function(){
 			location.hash = 'home'

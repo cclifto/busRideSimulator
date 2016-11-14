@@ -9,7 +9,9 @@ var FirstBusView = React.createClass({
 			<div className="list-view">
 				<Header />
 				<div className="view-container">
-					<img src="http://lorempixel.com/400/400/"></img>
+					<p>>>Welcome to Bus Simulator. Press "Start" to begin your public transit adventure.</p>
+					<p>>>You are riding the bus in your town. It's a prime example of public transit. It's cheap, affordable and, get this, good for the environment! Good on you, buddy!</p>
+					<p>>>So... like... what do you wanna do?</p>
 				</div>
 				<SecondFooter />
 			</div>

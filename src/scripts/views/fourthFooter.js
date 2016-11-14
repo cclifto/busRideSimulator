@@ -1,14 +1,14 @@
 import React from "react"
 
 var FourthFooter = React.createClass({
-	// _clickStart: function(){
-	// 	location.hash = '#onBus'
-	// },
+	_turnAway: function(){
+		location.hash = '#turnAway'
+	},
 
 	render: function(){
 		return (
 			<footer>
-				<button>TURN AWAY</button>
+				<button onClick={this._turnAway}>TURN AWAY</button>
 				<button>OFFER BREATH MINT</button>
 			</footer>
 			)

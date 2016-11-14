@@ -1,15 +1,15 @@
 import React from "react"
 
 var ThirdFooter = React.createClass({
-	// _clickStart: function(){
-	// 	location.hash = '#onBus'
-	// },
+	_clickStart: function(){
+		location.hash = '#shirtOff'
+	},
 
 	render: function(){
 		return (
 			<footer>
 				<button>CLEAN SHIRT</button>
-				<button>TAKE OFF SHIRT</button>
+				<button onClick={this._clickStart}>TAKE OFF SHIRT</button>
 			</footer>
 			)
 	}
@@ -17,3 +17,4 @@ var ThirdFooter = React.createClass({
 
 export default ThirdFooter
 
+// <button onClick={this._clickStart}>START</button>

@@ -8,8 +8,8 @@ var StartView = React.createClass({
 		return (
 			<div className="list-view">
 				<Header />
-				<div className="start-screen">
-					<img src="http://lorempixel.com/400/400/"></img>
+				<div className="view-container">
+					<p>>>Welcome to Bus Simulator. Press "Start" to begin your public transit adventure.</p>
 				</div>
 				<Footer />
 			</div>
