@@ -1,8 +1,8 @@
 import React from "react"
 import Header from "./header"
-import SecondFooter from './secondFooter'
+import FourthFooter from './fourthFooter'
 
-var FirstBusView = React.createClass({	
+var CleanNeighbor = React.createClass({	
 
 	render: function(){
 		return (
@@ -11,13 +11,10 @@ var FirstBusView = React.createClass({
 				<div className="view-container">
 					<img src="http://lorempixel.com/400/400/"></img>
 				</div>
-				<SecondFooter />
+				<FourthFooter />
 			</div>
 		)
 	}
 })
 
-
-
-
-export default FirstBusView
+export default CleanNeighbor

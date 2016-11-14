@@ -1,8 +1,8 @@
 import React from "react"
 import Header from "./header"
-import SecondFooter from './secondFooter'
+import ThirdFooter from './thirdFooter'
 
-var FirstBusView = React.createClass({	
+var EatLunch = React.createClass({	
 
 	render: function(){
 		return (
@@ -11,13 +11,10 @@ var FirstBusView = React.createClass({
 				<div className="view-container">
 					<img src="http://lorempixel.com/400/400/"></img>
 				</div>
-				<SecondFooter />
+				<ThirdFooter />
 			</div>
 		)
 	}
 })
 
-
-
-
-export default FirstBusView
+export default EatLunch
