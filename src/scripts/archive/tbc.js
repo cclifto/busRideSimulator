@@ -8,7 +8,7 @@ var TBC = React.createClass({
 	render: function(){
 		return (
 			<footer>
-				<button onClick={this._clickStartOver}>TO BE CONTINUED</button>
+				<button value={this.props.buttonValue} onClick={this._clickStartOver}>TO BE CONTINUED</button>
 			</footer>
 			)
 	}

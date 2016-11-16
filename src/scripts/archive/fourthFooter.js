@@ -3,6 +3,7 @@ import React from "react"
 var FourthFooter = React.createClass({
 	_turnAway: function(){
 		location.hash = '#turnAway'
+
 	},
 
 	_mint: function(){

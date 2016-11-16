@@ -18,7 +18,7 @@ var GoIn = React.createClass({
 					<p>>>You show up at Jordan's house and knock on the door. It opens slightly. You call her name out, but there is no response.</p>
 					<p>>>You open the door slowly and walk inside. You call out for Jordan again and there is no response. You shut the door behind you. It's dark so you look for a lightswitch and turn the lights on. You see Jordan's mutilated corpse on the ground and blood all over the walls. Your phone vibrates and you look at it to see a text message from an unknown number that reads "POLICE R COMING. RUN"</p>
 				</div>
-				<TBC />
+				<Buttons />
 			</div>
 		)
 	}

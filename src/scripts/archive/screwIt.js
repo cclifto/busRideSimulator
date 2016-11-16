@@ -3,6 +3,13 @@ import Header from "./header"
 import GameOver from './gameOver'
 
 var ScrewIt = React.createClass({	
+ 
+	componentDidUpdate: function() {
+	    var node = this.getDOMNode()
+	    var containerNode = node.querySelector('.view-container')
+	    console.log(containerNode)
+	    containerNode.scrollTop = containerNode.scrollHeight
+	},
 
 	render: function(){
 		return (
