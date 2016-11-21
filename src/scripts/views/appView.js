@@ -6,12 +6,15 @@ import STORE from '../store'
 
 var AppView = React.createClass({	
 	componentWillMount: function() {
-		ACTIONS.handleChoice(start)
+		STORE.on("STOREChange",()=>{
+			this.setState(STORE._getData())
+		})
+	},
+			// this.state.choices.buttonValue
+		
 		// start subscribing to the event that's broadcast by the store. 
 
-
 		// when you hear the right event name, run a function that will call setState on this component.
-	},
 
 //get initial state needs to return the object that becomes the state of the component
 
@@ -20,14 +23,15 @@ var AppView = React.createClass({
 	},
 
 	render: function(){
+		console.log(this.state)
 		// FIRST, BEFORE ANY OTHER WORK
 		// you need to champagne-waterfall your initial state down to the components that need it
 		// and render accordingly in those components.
 		return (
 			<div className="list-view">
 				<Header />
-				<ScrollBox />
-				<Buttons />
+				<ScrollBox display_text={this.state.display_text}/>
+				<Buttons choices={this.state.choices}/>
 			</div>
 		)
 	}

@@ -1,12 +1,13 @@
 import Backbone from 'backbone'
 import _ from 'underscore'
-import TextAndChoices from "./textAndChoices"
+import textAndChoices from "./textAndChoices"
+
 
 
 const STORE = _.extend(Backbone.Events,{
 	_data: {
-		displayText: '',
-		choices: []
+		display_text: textAndChoices.start.display_text,
+		choices: textAndChoices.start.choices
 	},
 	_getData: function() {
 		return this._data
@@ -20,6 +21,7 @@ const STORE = _.extend(Backbone.Events,{
 	_set: function(obj) {
 		this._data = _.extend(this._data, obj)
 		this._emitChange()
+	}
 })
-STORE._initialize()
+
 export default STORE

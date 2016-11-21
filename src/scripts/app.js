@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Backbone from 'backbone'
 import Header from './views/header'
-import Footer from './views/footer'
+// import Footer from './views/footer'
 import AppView from './views/appView'
 import textAndChoices from './textAndChoices'
 
@@ -18,7 +18,7 @@ var app = function() {
 	var Controller = Backbone.Router.extend({
 		routes: {
 			'home': 'handleHome',
-			'checkpoint/:title'
+			// 'checkpoint/:title',
 			'*default': 'handleDefault'
 		},
 		handleHome: function(){

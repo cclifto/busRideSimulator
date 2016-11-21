@@ -4,11 +4,11 @@ import STORE from "./store"
 import textAndChoices from "./textAndChoices"
 
 var ACTIONS = {
-	handleChoice: function(buttonValue) {
-		var currentScriptObj = textAndChoices[buttonValue]
+	nextScript: function(buttonValue){
+		var nextScriptObj = textAndChoices[buttonValue]
 		STORE._set({
-			displayText: currentScriptObj.displayText,
-			choices: currentScriptObj.choices
+			display_text: nextScriptObj.display_text,
+			choices: nextScriptObj.choices
 		})
 	}
 }
