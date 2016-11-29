@@ -32,6 +32,13 @@ var AppView = React.createClass({
 				<Header />
 				<ScrollBox display_text={this.state.display_text}/>
 				<Buttons choices={this.state.choices}/>
+				<nav>
+					<a href="http://www.connerclifton.com">connerclifton.com</a>
+					<a href="http://facebook.com/connerclifton">facebook</a>
+					<a href="https://github.com/cclifto/busRideSimulator">github</a>
+					<a href="http://instagram.com/coonerqueefton">instagram</a>
+					<a href="mailto:cliftonconner@gmail.com">email me</a>
+				</nav>
 			</div>
 		)
 	}
