@@ -6,7 +6,7 @@ var textAndChoices = {
 	},
 
 	firstView: {
-		display_text: ">>You are riding the bus in your town. It's a prime example of public transit. It's cheap, affordable and, get this, good for the environment! Good on you, buddy!>>So... like... what do you wanna do?",
+		display_text: ">>You are riding the bus in your town. It's a prime example of public transit. It's cheap, affordable and, get this, good for the environment! Good on you, buddy! So... like... what do you wanna do?",
 		choices: [{buttonText: "TALK TO NEIGHBOR",
 				   buttonValue: 'talkNeighbor'},
 				  {buttonText:"EAT LUNCH",
