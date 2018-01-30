@@ -76,7 +76,7 @@ var textAndChoices = {
 	},
 
 	ignoreQuitBoss: {
-		display_text: ">>On your way out the door, your boss stops you. "+'"You work good, son. Real good. I got some work needs doing out on the town and I think you'+"'"+'the man for the job. Let'+"'"+'s take a ride". You just got noticed by the boss! Do you go with him?',
+		display_text: ">>On your way out the door, your boss stops you. "+'"You work good, son. Real good. I got some work needs doing out on the town and I think you'+"'"+'the man for the job. Let'+"'"+'s take a ride". Oh man, one-on-one time with the boss! This is a great opportunity for vertical growth! But then again, you do have plans with Jordan. Do you go with him?',
 		choices:[{buttonText:"GO WITH HIM",
 					buttonValue:''}, 
 					{buttonText:"DON'T GO WITH HIM",
