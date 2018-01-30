@@ -84,7 +84,9 @@ var textAndChoices = {
 	},
 
 	bossFavor: {
-		display_text: "You and your boss hop into his red convertible. He turns the car on, revs the engine several times and peels out of the garage. You have to admit that you find this very impressive. After all, you ride the bus."
+		display_text: 'You and your boss hop into his red convertible. He turns the car on, revs the engine several times and peels out of the garage. You have to admit that you find this very impressive. After all, you ride the bus. He turns to you and says "You know, kid. I'+"'"+"ve noticed you at work. What I like most about you is that when you're told to do something, by god, you fuckin' do it"+'".',
+		choices:[{buttonText:"UH, OK",
+					buttonValue:"bossFavor2"}]
 	},
 
 	ignoreQuit: {
