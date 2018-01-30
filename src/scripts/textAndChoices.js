@@ -72,7 +72,15 @@ var textAndChoices = {
 	keepWorking: {
 		display_text: ">>You keep working. Probably best to make a good impression. After all, you're still in your probationary period!",
 		choices: [{buttonText:"QUITTIN' TIME!",
-					buttonValue: 'ignoreQuit'}]
+					buttonValue: 'ignoreQuitBoss'}]
+	},
+
+	ignoreQuitBoss: {
+		display_text: ">>On your way out the door, your boss stops you. "+'"You work good, son. Real good. I got some work needs doing out on the town and I think you'+"'"+'the man for the job. Let'+"'"+'take a ride". You just got noticed by the boss! Do you go with him?',
+		choices:[{buttonText:"GO WITH HIM",
+					buttonValue:''}, 
+					{buttonText:"DON'T GO WITH HIM",
+					buttonValue:"ignoreQuit"}]
 	},
 
 	ignoreQuit: {
