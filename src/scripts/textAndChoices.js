@@ -76,7 +76,7 @@ var textAndChoices = {
 	},
 
 	ignoreQuitBoss: {
-		display_text: ">>On your way out the door, your boss stops you. "+'"You work good, son. Real good. I got some work needs doing out on the town and I think you'+"'"+'the man for the job. Let'+"'"+'s take a ride". Oh man, one-on-one time with the boss! This is a great opportunity for vertical growth! But then again, you do have plans with Jordan. Do you go with him?',
+		display_text: ">>On your way out the door, your boss stops you. "+'"You work good, son. Real good. I got some work needs doing out on the town and I think you'+"'re"+' the man for the job. Let'+"'s"+' take a ride". Oh man, one-on-one time with the boss! This is a great opportunity for vertical growth! But then again, you do have plans with Jordan. Do you go with him?',
 		choices:[{buttonText:"GO WITH HIM",
 					buttonValue:'bossFavor'}, 
 					{buttonText:"DON'T GO WITH HIM",
@@ -84,7 +84,7 @@ var textAndChoices = {
 	},
 
 	bossFavor: {
-		display_text: 'You and your boss hop into his red convertible. He turns the car on, revs the engine several times and peels out of the garage. You have to admit that you find this very impressive. After all, you ride the bus. He turns to you and says "You know, kid. I'+"'"+"ve noticed you at work. What I like most about you is that when you're told to do something, by god, you fuckin' do it"+'".',
+		display_text: '>>You and your boss hop into his red convertible. He turns the car on, revs the engine several times and peels out of the garage. You have to admit that you find this very impressive. After all, you ride the bus. He turns to you and says "You know, kid. I'+"'"+"ve noticed you at work. What I like most about you is that when you're told to do something, by god, you fuckin' do it"+'".',
 		choices:[{buttonText:"UH, OK",
 					buttonValue:"bossFavor2"}]
 	},
