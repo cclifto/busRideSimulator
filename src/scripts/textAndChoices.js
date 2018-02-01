@@ -95,6 +95,12 @@ var textAndChoices = {
 					buttonValue:"bossfavor3"}]
 	},
 
+	bossfavor3:{
+		display_text: '>>He continues. "Well, are you gonna do it or not? My wife isn'+"'"+'t gonna kill herself! Oh, wait... that might be cheaper. No, no, she deserves better than that. She is the mother of my kid after all."',
+		choices: [{buttonText: "TRY OPENING CAR DOOR",
+					buttonValue: "itDoesntWork"}]
+	},
+
 	ignoreQuit: {
 		display_text: ">>You show up at the bar for happy hour and Jordan is no where to be found. You check your phone and see that text you got earlier was from her and she wanted to meet at her place first! Oh geez! You try calling but she doesn't pick up, so you go home, alone.",
 		choices: [{buttonText:"START OVER?",
