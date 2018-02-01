@@ -89,6 +89,12 @@ var textAndChoices = {
 					buttonValue:"bossFavor2"}]
 	},
 
+	bossFavor2: {
+		display_text: '>> You come to a stop at a redlight. Your boss looks over at you. "Look, kid: I need ya to kill my wife."',
+		choices: [{buttonText: "HOLY FUCKING SHIT",
+					buttonValue:"bossfavor3"}]
+	},
+
 	ignoreQuit: {
 		display_text: ">>You show up at the bar for happy hour and Jordan is no where to be found. You check your phone and see that text you got earlier was from her and she wanted to meet at her place first! Oh geez! You try calling but she doesn't pick up, so you go home, alone.",
 		choices: [{buttonText:"START OVER?",
