@@ -110,7 +110,7 @@ var textAndChoices = {
 	},
 
 	bossNo:{
-		display_text:'>>Your boss slightly frowns. "Ah, crap. Well, that'+"'"+'s too bad, I really needed her killed. I'+"'"+'call my brother or something. Thanks anyway, kid. I'+"'"+'ll see you on Monday." You try to tell him that tomorrow is Wednesday, but he pushes you out of the car and drives off. You look at your phone and see that you still have yet to read the text message from Jordan!',
+		display_text:'>>Your boss slightly frowns. "Ah, crap. Well, that'+"'"+'s too bad, I really needed her killed. I'+"'ll "+'call my brother or something. Thanks anyway, kid. I'+"'"+'ll see you on Monday." You try to tell him that tomorrow is Wednesday, but he pushes you out of the car and drives off. You look at your phone and see that you still have yet to read the text message from Jordan!',
 			choices: [{buttonText: "READ IT",
 						buttonValue: "readIt"},
 					{buttonText: "NO WAY, I'M GOING HOME",
