@@ -101,6 +101,14 @@ var textAndChoices = {
 					buttonValue: "itDoesntWork"}]
 	},
 
+	itDoesntWork:{
+		display_text: ">>You reach for the car door but it is no use. The door is locked and it is one of those shallow door locks that you likely couldn't get a good grip on. You turn back to your boss who is looking at you with a face that says" +'"Well, are ya gonna kill my wife or not??"',
+			choices: [{buttonText: "I'M SORRY, BUT NO",
+						buttonValue: "bossNo"},
+					{buttonText: "LET'S TALK NUMBERS, DADDY-O",
+						buttonValue: "bossYes"}]
+	},
+
 	ignoreQuit: {
 		display_text: ">>You show up at the bar for happy hour and Jordan is no where to be found. You check your phone and see that text you got earlier was from her and she wanted to meet at her place first! Oh geez! You try calling but she doesn't pick up, so you go home, alone.",
 		choices: [{buttonText:"START OVER?",
