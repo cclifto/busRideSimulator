@@ -109,6 +109,14 @@ var textAndChoices = {
 						buttonValue: "bossYes"}]
 	},
 
+	bossNo:{
+		display_text:'>>Your boss slightly frowns. "Ah, crap. Well, that'+"'"+'s too bad, I really needed her killed. I'+"'"+'call my brother or something. Thanks anyway, kid. I'+"'"+'ll see you on Monday." You try to tell him that tomorrow is Wednesday, but he pushes you out of the car and drives off. You look at your phone and see that you still have yet to read the text message from Jordan!',
+			choices: [{buttonText: "READ IT",
+						buttonValue: "readIt"},
+					{buttonText: "NO WAY, I'M GOING HOME",
+						buttonValue: "goHomeBoss"}]
+	},
+
 	ignoreQuit: {
 		display_text: ">>You show up at the bar for happy hour and Jordan is no where to be found. You check your phone and see that text you got earlier was from her and she wanted to meet at her place first! Oh geez! You try calling but she doesn't pick up, so you go home, alone.",
 		choices: [{buttonText:"START OVER?",
